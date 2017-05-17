@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\window">
+      <UniqueIdentifier>{3b3ca593-8e15-4f5f-85d3-f9fb655a0caf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\window">
+      <UniqueIdentifier>{5658ccf3-ce02-47cc-ab0a-d02cfd5b5f21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\input">
+      <UniqueIdentifier>{417de8fd-13e0-45e6-a843-1433660ee347}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\input">
+      <UniqueIdentifier>{471a2064-d1c8-4e1f-8cda-c7be4e6e6987}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\graphics">
+      <UniqueIdentifier>{02214d67-75aa-4d77-bd2f-bfda10db3a1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\graphics\model">
+      <UniqueIdentifier>{120ed7d1-60a1-4cc6-94bc-560279d62da4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\graphics">
+      <UniqueIdentifier>{9f5f4aec-09e7-414b-b761-502256adbb8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\graphics\model">
+      <UniqueIdentifier>{c9c81ae4-6161-4f42-a161-86497f0136e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\graphics\renderer">
+      <UniqueIdentifier>{3e6a6c31-5cd5-4953-9208-662e3d7231aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\graphics\renderer">
+      <UniqueIdentifier>{15695361-b42e-450b-944e-b1afead290e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\shaders">
+      <UniqueIdentifier>{4bf33a45-65d4-4ea2-bbda-6e73072a7e18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\graphics\shader">
+      <UniqueIdentifier>{60a98c3c-9492-4a5e-97ab-6edc87defc24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\graphics\shader">
+      <UniqueIdentifier>{40ec61f0-fc6f-4783-9f9b-ff0d9eecf2c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\util">
+      <UniqueIdentifier>{a1e50126-739f-4b2a-bb6d-b992eb12a0ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\math">
+      <UniqueIdentifier>{f6bdbccb-81d5-49ea-b735-d06fea235976}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\math">
+      <UniqueIdentifier>{5defab48-8687-4562-89c5-d75645322b8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\camera">
+      <UniqueIdentifier>{cbe0d6fb-6f20-44dd-84eb-df5f14c93d89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\camera">
+      <UniqueIdentifier>{c54c6d85-305d-4074-bbff-613f6ebfab16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\graphics\lights">
+      <UniqueIdentifier>{9b78e2ef-5d3b-425e-84b5-761e2ca97eb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\shaders\basic">
+      <UniqueIdentifier>{0030d329-73cd-4765-9cc5-2e19f94336d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\shaders\instanced">
+      <UniqueIdentifier>{678a195f-8118-4de8-bd9a-eb56d13fc4da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\graphics\shapes">
+      <UniqueIdentifier>{cf53f712-36fb-4677-8e7c-069ede097341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\graphics\shapes">
+      <UniqueIdentifier>{c8ca7ecb-7b62-4dea-8db9-0a021ae9469b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Source Files\window</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>Source Files\input</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>Source Files\input</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleRenderer.cpp">
+      <Filter>Source Files\graphics\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files\graphics\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="ContentManager.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector4.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix4.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files\graphics\model</Filter>
+    </ClCompile>
+    <ClCompile Include="InstancedRenderer.cpp">
+      <Filter>Source Files\graphics\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source Files\graphics\model</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>Source Files\graphics\shapes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Window.h">
+      <Filter>Header Files\window</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>Header Files\input</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>Header Files\input</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleRenderer.h">
+      <Filter>Header Files\graphics\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files\graphics\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="ContentManager.h">
+      <Filter>Header Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector4.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix4.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="MathsUtil.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files\graphics\model</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicLight.h">
+      <Filter>Header Files\graphics\lights</Filter>
+    </ClInclude>
+    <ClInclude Include="InstancedRenderer.h">
+      <Filter>Header Files\graphics\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files\graphics\model</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexTextureNormal.h">
+      <Filter>Header Files\graphics\model</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>Header Files\graphics\shapes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="basic.frag">
+      <Filter>Resource Files\shaders\basic</Filter>
+    </None>
+    <None Include="basic.vert">
+      <Filter>Resource Files\shaders\basic</Filter>
+    </None>
+    <None Include="instanced.vert">
+      <Filter>Resource Files\shaders\instanced</Filter>
+    </None>
+    <None Include="instanced.frag">
+      <Filter>Resource Files\shaders\instanced</Filter>
+    </None>
+  </ItemGroup>
+</Project>

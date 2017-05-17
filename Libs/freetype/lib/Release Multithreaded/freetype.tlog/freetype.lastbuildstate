@@ -1,0 +1,2 @@
+#TargetFrameworkVersion=v4.0:PlatformToolSet=v140:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit:WindowsTargetPlatformVersion=8.1
+Release Multithreaded|Win32|C:\Users\Mikael\Documents\Visual Studio 2015\Libs\freetype-2.7\builds\windows\vc2010\|
