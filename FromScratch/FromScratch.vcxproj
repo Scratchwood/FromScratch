@@ -19,52 +19,52 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Camera.cpp" />
-    <ClCompile Include="Entity.cpp" />
-    <ClCompile Include="InstancedRenderer.cpp" />
-    <ClCompile Include="Keyboard.cpp" />
+    <ClCompile Include="src\camera\Camera.cpp" />
+    <ClCompile Include="src\entity\Entity.cpp" />
+    <ClCompile Include="src\graphics\renderer\InstancedRenderer.cpp" />
+    <ClCompile Include="src\input\Keyboard.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="ContentManager.cpp" />
-    <ClCompile Include="Matrix4.cpp" />
-    <ClCompile Include="Mouse.cpp" />
-    <ClCompile Include="Mesh.cpp" />
-    <ClCompile Include="Terrain.cpp" />
-    <ClCompile Include="Shader.cpp" />
-    <ClCompile Include="SimpleRenderer.cpp" />
-    <ClCompile Include="Texture.cpp" />
-    <ClCompile Include="Model.cpp" />
-    <ClCompile Include="Vector2.cpp" />
-    <ClCompile Include="Vector3.cpp" />
-    <ClCompile Include="Vector4.cpp" />
-    <ClCompile Include="Window.cpp" />
+    <ClCompile Include="src\util\ContentManager.cpp" />
+    <ClCompile Include="src\maths\Matrix4.cpp" />
+    <ClCompile Include="src\input\Mouse.cpp" />
+    <ClCompile Include="src\graphics\model\Mesh.cpp" />
+    <ClCompile Include="src\graphics\terrain\Terrain.cpp" />
+    <ClCompile Include="src\graphics\shader\Shader.cpp" />
+    <ClCompile Include="src\graphics\renderer\SimpleRenderer.cpp" />
+    <ClCompile Include="src\graphics\model\Texture.cpp" />
+    <ClCompile Include="src\graphics\model\Model.cpp" />
+    <ClCompile Include="src\maths\Vector2.cpp" />
+    <ClCompile Include="src\maths\Vector3.cpp" />
+    <ClCompile Include="src\maths\Vector4.cpp" />
+    <ClCompile Include="src\graphics\Window.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BasicLight.h" />
-    <ClInclude Include="Camera.h" />
-    <ClInclude Include="Entity.h" />
-    <ClInclude Include="InstancedRenderer.h" />
-    <ClInclude Include="Keyboard.h" />
-    <ClInclude Include="ContentManager.h" />
-    <ClInclude Include="MathsUtil.h" />
-    <ClInclude Include="Matrix4.h" />
-    <ClInclude Include="Mouse.h" />
-    <ClInclude Include="Mesh.h" />
-    <ClInclude Include="Terrain.h" />
-    <ClInclude Include="Shader.h" />
-    <ClInclude Include="SimpleRenderer.h" />
-    <ClInclude Include="Texture.h" />
-    <ClInclude Include="Model.h" />
-    <ClInclude Include="Vector2.h" />
-    <ClInclude Include="Vector3.h" />
-    <ClInclude Include="Vector4.h" />
-    <ClInclude Include="VertexTextureNormal.h" />
-    <ClInclude Include="Window.h" />
+    <ClInclude Include="src\graphics\light\BasicLight.h" />
+    <ClInclude Include="src\camera\Camera.h" />
+    <ClInclude Include="src\entity\Entity.h" />
+    <ClInclude Include="src\graphics\renderer\InstancedRenderer.h" />
+    <ClInclude Include="src\input\Keyboard.h" />
+    <ClInclude Include="src\util\ContentManager.h" />
+    <ClInclude Include="src\maths\MathsUtil.h" />
+    <ClInclude Include="src\maths\Matrix4.h" />
+    <ClInclude Include="src\input\Mouse.h" />
+    <ClInclude Include="src\graphics\model\Mesh.h" />
+    <ClInclude Include="src\graphics\terrain\Terrain.h" />
+    <ClInclude Include="src\graphics\shader\Shader.h" />
+    <ClInclude Include="src\graphics\renderer\SimpleRenderer.h" />
+    <ClInclude Include="src\graphics\model\Texture.h" />
+    <ClInclude Include="src\graphics\model\Model.h" />
+    <ClInclude Include="src\maths\Vector2.h" />
+    <ClInclude Include="src\maths\Vector3.h" />
+    <ClInclude Include="src\maths\Vector4.h" />
+    <ClInclude Include="src\graphics\model\VertexTextureNormal.h" />
+    <ClInclude Include="src\graphics\Window.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="basic.frag" />
-    <None Include="basic.vert" />
-    <None Include="instanced.frag" />
-    <None Include="instanced.vert" />
+    <None Include="res\shaders\basic.frag" />
+    <None Include="res\shaders\basic.vert" />
+    <None Include="res\shaders\instanced.frag" />
+    <None Include="res\shaders\instanced.vert" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{F66346E8-8236-4477-9814-40014394791E}</ProjectGuid>

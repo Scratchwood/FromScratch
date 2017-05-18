@@ -87,131 +87,131 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Window.cpp">
+    <ClCompile Include="src\graphics\renderer\InstancedRenderer.cpp">
+      <Filter>Source Files\graphics\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\renderer\SimpleRenderer.cpp">
+      <Filter>Source Files\graphics\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\maths\Vector2.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\maths\Vector3.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\maths\Vector4.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\maths\Matrix4.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\input\Keyboard.cpp">
+      <Filter>Source Files\input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\input\Mouse.cpp">
+      <Filter>Source Files\input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\Window.cpp">
       <Filter>Source Files\window</Filter>
     </ClCompile>
-    <ClCompile Include="Keyboard.cpp">
-      <Filter>Source Files\input</Filter>
-    </ClCompile>
-    <ClCompile Include="Mouse.cpp">
-      <Filter>Source Files\input</Filter>
-    </ClCompile>
-    <ClCompile Include="SimpleRenderer.cpp">
-      <Filter>Source Files\graphics\renderer</Filter>
-    </ClCompile>
-    <ClCompile Include="Shader.cpp">
+    <ClCompile Include="src\graphics\shader\Shader.cpp">
       <Filter>Source Files\graphics\shader</Filter>
     </ClCompile>
-    <ClCompile Include="ContentManager.cpp">
+    <ClCompile Include="src\graphics\model\Mesh.cpp">
+      <Filter>Source Files\graphics\model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\model\Model.cpp">
+      <Filter>Source Files\graphics\model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\model\Texture.cpp">
       <Filter>Source Files\graphics</Filter>
     </ClCompile>
-    <ClCompile Include="Texture.cpp">
-      <Filter>Source Files\graphics</Filter>
-    </ClCompile>
-    <ClCompile Include="Vector2.cpp">
-      <Filter>Source Files\math</Filter>
-    </ClCompile>
-    <ClCompile Include="Vector3.cpp">
-      <Filter>Source Files\math</Filter>
-    </ClCompile>
-    <ClCompile Include="Vector4.cpp">
-      <Filter>Source Files\math</Filter>
-    </ClCompile>
-    <ClCompile Include="Matrix4.cpp">
-      <Filter>Source Files\math</Filter>
-    </ClCompile>
-    <ClCompile Include="Entity.cpp">
-      <Filter>Source Files\graphics</Filter>
-    </ClCompile>
-    <ClCompile Include="Camera.cpp">
+    <ClCompile Include="src\camera\Camera.cpp">
       <Filter>Source Files\camera</Filter>
     </ClCompile>
-    <ClCompile Include="Mesh.cpp">
-      <Filter>Source Files\graphics\model</Filter>
+    <ClCompile Include="src\util\ContentManager.cpp">
+      <Filter>Source Files\graphics</Filter>
     </ClCompile>
-    <ClCompile Include="InstancedRenderer.cpp">
-      <Filter>Source Files\graphics\renderer</Filter>
-    </ClCompile>
-    <ClCompile Include="Model.cpp">
-      <Filter>Source Files\graphics\model</Filter>
-    </ClCompile>
-    <ClCompile Include="Terrain.cpp">
+    <ClCompile Include="src\graphics\terrain\Terrain.cpp">
       <Filter>Source Files\graphics\shapes</Filter>
     </ClCompile>
+    <ClCompile Include="src\entity\Entity.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Window.h">
+    <ClInclude Include="src\graphics\renderer\InstancedRenderer.h">
+      <Filter>Header Files\graphics\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\renderer\SimpleRenderer.h">
+      <Filter>Header Files\graphics\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\maths\Vector2.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\maths\Vector3.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\maths\Vector4.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\maths\Matrix4.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\maths\MathsUtil.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\input\Keyboard.h">
+      <Filter>Header Files\input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\input\Mouse.h">
+      <Filter>Header Files\input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\Window.h">
       <Filter>Header Files\window</Filter>
     </ClInclude>
-    <ClInclude Include="Keyboard.h">
-      <Filter>Header Files\input</Filter>
-    </ClInclude>
-    <ClInclude Include="Mouse.h">
-      <Filter>Header Files\input</Filter>
-    </ClInclude>
-    <ClInclude Include="SimpleRenderer.h">
-      <Filter>Header Files\graphics\renderer</Filter>
-    </ClInclude>
-    <ClInclude Include="Shader.h">
+    <ClInclude Include="src\graphics\shader\Shader.h">
       <Filter>Header Files\graphics\shader</Filter>
     </ClInclude>
-    <ClInclude Include="ContentManager.h">
+    <ClInclude Include="src\graphics\model\Mesh.h">
+      <Filter>Header Files\graphics\model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\model\Model.h">
+      <Filter>Header Files\graphics\model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\model\Texture.h">
       <Filter>Header Files\graphics</Filter>
     </ClInclude>
-    <ClInclude Include="Texture.h">
-      <Filter>Header Files\graphics</Filter>
+    <ClInclude Include="src\graphics\model\VertexTextureNormal.h">
+      <Filter>Header Files\graphics\model</Filter>
     </ClInclude>
-    <ClInclude Include="Vector2.h">
-      <Filter>Header Files\math</Filter>
-    </ClInclude>
-    <ClInclude Include="Vector3.h">
-      <Filter>Header Files\math</Filter>
-    </ClInclude>
-    <ClInclude Include="Vector4.h">
-      <Filter>Header Files\math</Filter>
-    </ClInclude>
-    <ClInclude Include="Matrix4.h">
-      <Filter>Header Files\math</Filter>
-    </ClInclude>
-    <ClInclude Include="MathsUtil.h">
-      <Filter>Header Files\math</Filter>
-    </ClInclude>
-    <ClInclude Include="Entity.h">
-      <Filter>Header Files\graphics</Filter>
-    </ClInclude>
-    <ClInclude Include="Camera.h">
+    <ClInclude Include="src\camera\Camera.h">
       <Filter>Header Files\camera</Filter>
     </ClInclude>
-    <ClInclude Include="Mesh.h">
-      <Filter>Header Files\graphics\model</Filter>
-    </ClInclude>
-    <ClInclude Include="BasicLight.h">
+    <ClInclude Include="src\graphics\light\BasicLight.h">
       <Filter>Header Files\graphics\lights</Filter>
     </ClInclude>
-    <ClInclude Include="InstancedRenderer.h">
-      <Filter>Header Files\graphics\renderer</Filter>
+    <ClInclude Include="src\util\ContentManager.h">
+      <Filter>Header Files\graphics</Filter>
     </ClInclude>
-    <ClInclude Include="Model.h">
-      <Filter>Header Files\graphics\model</Filter>
-    </ClInclude>
-    <ClInclude Include="VertexTextureNormal.h">
-      <Filter>Header Files\graphics\model</Filter>
-    </ClInclude>
-    <ClInclude Include="Terrain.h">
+    <ClInclude Include="src\graphics\terrain\Terrain.h">
       <Filter>Header Files\graphics\shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\entity\Entity.h">
+      <Filter>Header Files\graphics</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="basic.frag">
+    <None Include="res\shaders\basic.frag">
       <Filter>Resource Files\shaders\basic</Filter>
     </None>
-    <None Include="basic.vert">
+    <None Include="res\shaders\basic.vert">
       <Filter>Resource Files\shaders\basic</Filter>
     </None>
-    <None Include="instanced.vert">
+    <None Include="res\shaders\instanced.frag">
       <Filter>Resource Files\shaders\instanced</Filter>
     </None>
-    <None Include="instanced.frag">
+    <None Include="res\shaders\instanced.vert">
       <Filter>Resource Files\shaders\instanced</Filter>
     </None>
   </ItemGroup>
